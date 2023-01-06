@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "souscriptions",
+  "info": {
+    "singularName": "souscription",
+    "pluralName": "souscriptions",
+    "displayName": "souscription",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    }
+  }
+}
